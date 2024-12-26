@@ -1,5 +1,5 @@
 # Uncomment `source.c` and remove introspection if you are not using combos or "timeless" hrm.
-# SRC += source.c
+SRC += source.c
 SRC += features/select_word.c
 SRC += features/layer_lock.c
 SRC += features/swapper.c
