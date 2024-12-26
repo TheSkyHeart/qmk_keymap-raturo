@@ -20,7 +20,7 @@ WS2812_DRIVER = vendor
 
 # Uncomment below to use "timeless" homerow mods or combos.
 COMBO_ENABLE = yes
-#INTROSPECTION_KEYMAP_C = source.c # Look here for definitions of combos.
+INTROSPECTION_KEYMAP_C = source.c # Look here for definitions of combos.
 
 # Reduce size
 LTO_ENABLE = yes
@@ -33,4 +33,4 @@ MAGIC_ENABLE = no
 MUSIC_ENABLE = no
 
 # Convert from Elite-C to Liatris (did not work)
-CONVERT_TO=rp2040_ce
+# CONVERT_TO=rp2040_ce
