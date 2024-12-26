@@ -19,8 +19,8 @@ RGB_MATRIX_ENABLE = no
 WS2812_DRIVER = vendor
 
 # Uncomment below to use "timeless" homerow mods or combos.
-COMBO_ENABLE = yes
-INTROSPECTION_KEYMAP_C = source.c # Look here for definitions of combos.
+#COMBO_ENABLE = yes
+#INTROSPECTION_KEYMAP_C = source.c # Look here for definitions of combos.
 
 # Reduce size
 LTO_ENABLE = yes
