@@ -33,7 +33,7 @@ jobs:
         path: users/${{ github.actor }}
 
     - name: Build firmware
-      run: qmk compile "users/${{ github.actor }}/keymaps/${{ matrix.file }}" -e CONVERT_TO=liatris
+      run: qmk compile "users/${{ github.actor }}/keymaps/${{ matrix.file }}" -e CONVERT_TO=rp2040_ce
 
     - name: Archive firmware
       uses: actions/upload-artifact@v4
